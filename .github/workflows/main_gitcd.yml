@@ -4,11 +4,7 @@
 name: Build and deploy Node.js app to Azure Web App - gitcd
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
+  [push]
 jobs:
   build:
     runs-on: ubuntu-latest
