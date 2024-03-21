@@ -4,7 +4,7 @@ const app = express();
 require("dotenv").config();
 
 app.get("/", (request, response) => {
-  response.send("Enrollment Accepted.Initiated Gateway");
+  response.send("Enrollment Accepted.Initiated Gateway.Admissions opened");
 });
 
 var PORT = process.env.PORT || 8080;
